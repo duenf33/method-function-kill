@@ -7,36 +7,10 @@ const Person = (firstName, lastName, age, married ) => {
     lastName,
     age,
     married,
-  // const person = {
-    // this.firstName = firstName,
-    // this.lastName = lastName,
-    // this.age = age,
-    // this.married = married
-  //   add: function(input) {
-  //     this.firstName.push(input)
-  //   },
-  //   add: function(input) {
-  //     this.lastName.push(input)
-  //   },
-  //   add: function(input) {
-  //     this.age.push(input)
-  //   },
-  //   add: function(input) {
-  //     this.married.push(input)
-    // },
-  }
-  // return person;
-}
-// const human = function (firstName, lastName, age) {
-  // Note: Don't worry about 'this' yet. You'll understand it later. Follow along for now.
-  // this.firstName = firstName
-  // this.lastName = lastName
-  // this.age = age
 
-  // this.sayName = function () {
-  //   console.log(`I am ${firstName} ${lastName}`)
-  // }
-// }
+  }
+}
+
 // const person1 = Person()
 // person1.add('Fernando')
 // person1.name //?
