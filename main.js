@@ -2,7 +2,12 @@
  * YOUR CODE HERE *
  ******************/
 const Person = (firstName, lastName, age, married ) => {
-  const person = {
+  return {
+    firstName,
+    lastName,
+    age,
+    married,
+  // const person = {
     // this.firstName = firstName,
     // this.lastName = lastName,
     // this.age = age,
@@ -20,7 +25,7 @@ const Person = (firstName, lastName, age, married ) => {
   //     this.married.push(input)
     // },
   }
-  return person;
+  // return person;
 }
 // const human = function (firstName, lastName, age) {
   // Note: Don't worry about 'this' yet. You'll understand it later. Follow along for now.
