@@ -7,7 +7,17 @@ const Person = (firstName, lastName, age, married ) => {
     lastName,
     age,
     married,
+  
 
+    ageFunc: function () {
+      if(this.age === ''){
+        return this.age = 0;
+      }
+
+    // getFullName: function () {
+    //   return console.log(`${this.firstName} ${this.lastName}`)
+    // }
+    }
   }
 }
 
