@@ -1,31 +1,36 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-const Person = (firstName, lastName, age, married ) => {
+const Person = (firstName, lastName, age = 0, married = false ) => {
   return {
     firstName,
     lastName,
     age,
     married,
   
-
-    ageFunc: function () {
-      if(this.age === ''){
-        return this.age = 0;
-      }
-
-    // getFullName: function () {
-    //   return console.log(`${this.firstName} ${this.lastName}`)
-    // }
-    }
+    goingOn() {
+      return this.age + 1;
+    },
+    ageUp() {
+      return this.age++;
+    },
+    getFullName() {
+      return `${this.firstName} ${this.lastName}`;
+    },
+    marry() {
+      return this.married = true;
+    },
+    
   }
 }
 
-// const person1 = Person()
-// person1.add('Fernando')
-// person1.name //?
-// person1.firstName.add('Fernando')
-// person1.firstName //?
+const person1 = Person('Fernando', 'Duenas', 30, true)
+person1.firstName//?
+person1.lastName //?
+// person1.ageZero()//?
+// person1.ageZero.ages//?
+person1.married //?
+// person1.getFullName()//?
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
